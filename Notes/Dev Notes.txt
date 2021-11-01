@@ -1,0 +1,35 @@
+$npm init
+$npm install --save express
+
+//for auto restart after every file modification
+$npm install --save-dev nodemon
+//add script in package.json file
+"scripts": {
+    ...
+    "start": "nodemon server.js"
+}
+
+//package to log the requests on terminal console
+$npm install --save morgan
+
+//package to handle body of incoming requests.
+//It does not support files but does support - XML, json, url in text formats
+$npm install --save body-parser^X
+
+//package to connect to MongoDB database
+$npm install --save mongoose
+
+//package is like body-parser but can parse form data bodies. (using for files)
+$npm install --save multer
+
+upload.single() //method to upload only one file
+
+//to hash the password
+$npm install bcrypt
+
+//email match pattern found on the link.. is used in user model (use second suggested pattern)
+//https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript
+
+
+//Package Json Web Token is used for client/server passing the secured token and maintaining sessions/ login
+$npm install jsonwebtoken --save

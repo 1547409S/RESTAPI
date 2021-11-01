@@ -1,0 +1,6 @@
+{
+    "env": {
+        "MONGO_ATLAS_PWD": "deep2san",
+        "JWT_KEY": "secret"
+    }
+}
